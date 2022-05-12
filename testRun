@@ -1,0 +1,24 @@
+Run Book
+Check list - these are needed in the CHG to pass a Tech Review
+●	 “TEAM” information which tells you which Assignment Group to use for your Task
+○	If the tower is XXXXXX, assign it to TIM
+○	If the tower is YYYY, assign it to DAVE
+1.	Please provide a list of Impacted Application(s) and explain how the Application teams have been notified.  
+
+2.	Please indicate the “Point of no return” time for rollback and the amount of time it takes to perform the backout.  
+
+3.	Are there any related changes to this TICKET under review that need to be included in the “Related Records” section of the change?  If so, does the “Backout Plan” include steps to address related change(s)?  
+
+4.	Is the validation performed functional validation or technical (health check of components) or both?  What team is performing these tests?  
+
+5.	If not performing functional validation during the change window, please indicate why this is not being performed?  If being performed later or outside the change window, please indicate why the change window cannot be adjusted to include for this validation?  
+
+6.	Are there validation steps in the plan for after a rollback (if required)?  (Validation could be different in some cases)
+
+7.	Is this change expected to impact the performance or capacity of our systems (i.e. SLOs) in any way (for example: will calls to a particular service/component increase)?  If so, how?  And what steps have been taken to mitigate?
+
+8.	Are there any additional monitoring considerations to review with respect to this change and/or are new error messages or components being deployed that require monitoring setup in Sitescope, Application Dynamics or Splunk?  If so, where, how, and at what thresholds?  What should the response actions be for each alert?  
+
+9.	Provide a list of all key business workflow processes impacted as a result of this change.  Are these processes traceable in Application Dynamics?  If not, how are they traced?  
+
+10.	Provide full list of subject matter experts (SMEs) (names, no email lists) for Level 2 to contact should any issues arise during or directly after the change.  The link to your team’s on-call calendar in ServiceNow is also recommended. 
